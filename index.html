@@ -4,15 +4,20 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Online-products</title>
+    <!-- font awseome link  -->
+    <script src="https://kit.fontawesome.com/9595ef1ff0.js" crossorigin="anonymous"></script>
+    <!-- boostrap link  -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- custome css link  -->
     <link rel="stylesheet" href="style.css">
+
   </head>
   <body>
     <!-- header start -->
-    <header class="header-container">
-        <!-- navigation section bar  -->
-        <section >
-            <nav class="navbar navbar-expand-lg fixed-top bg-light">
+    <header class="header-container ">
+        <!-- navbar section bar  -->
+        <section class="container ">
+            <nav class="navbar navbar-expand-lg  ">
                 <div class="container">
                     <a class="navbar-brand" href="#">
                         <img src="icons/Logo.png" alt=""  height="34">
@@ -40,9 +45,91 @@
                 </div>
               </nav>
         </section>
+        <!-- nav section end  -->
+
+        <!-- imge slider section  -->
+        <section class="container">
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner pt-3 pb-5">
+              <div class="carousel-item active ">
+                <div class="row gx-5">
+                  <div class="col-lg-6 ">
+                    <div><img src="images/Group 33092.png" class="d-block w-100" alt="..."></div>
+                  </div>
+                  <div class="col-lg-6 d-flex flex-column align-items-start justify-content-center ps-5 mt-3">
+                    <h1 class="text-uppercase fw-semibold f-size">
+                      <span class="f-color">Nike React</span> <br>
+                      <span class="f-color2">Infinity Run 2</span>
+                    </h1>
+                    <p class="te-color">You should also consider shoes with orthotics or insoles that have substantial heel cups to help with cushioning and shock absorption to avoid...</p>
+                    <button type="button" class="btn btn-primary py-3 px-5"><i class="fa-solid fa-cart-shopping pe-2 "></i> Buy Now</button>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item" >
+                <div class="row gx-5">
+                  <div class="col-lg-6 ">
+                    <div><img src="images/Daco_1703273 1.png" class="d-block w-100" alt="..."></div>
+                  </div>
+                  <div class="col-lg-6 d-flex flex-column align-items-start justify-content-center ps-5 mt-3">
+                    <h1 class="text-uppercase fw-semibold f-size">
+                      <span class="f-color">Nike React</span> <br>
+                      <span class="f-color2">Infinity Run 2</span>
+                    </h1>
+                    <p class="te-color">You should also consider shoes with orthotics or insoles that have substantial heel cups to help with cushioning and shock absorption to avoid...</p>
+                    <button type="button" class="btn btn-primary py-3 px-5"><i class="fa-solid fa-cart-shopping pe-2 "></i> Buy Now</button>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row gx-5">
+                  <div class="col-lg-6 ">
+                    <div><img src="images/pngegg 1.png" class="d-block w-100" alt="..."></div>
+                  </div>
+                  <div class="col-lg-6 d-flex flex-column align-items-start justify-content-center ps-5 mt-3">
+                    <h1 class="text-uppercase fw-semibold f-size">
+                      <span class="f-color">Nike React</span> <br>
+                      <span class="f-color2">Infinity Run 2</span>
+                    </h1>
+                    <p class="te-color">You should also consider shoes with orthotics or insoles that have substantial heel cups to help with cushioning and shock absorption to avoid...</p>
+                    <button type="button" class="btn btn-primary py-3 px-5"><i class="fa-solid fa-cart-shopping pe-2 "></i> Buy Now</button>
+                  </div>
+                </div>
+              </div>
+              <!-- <div class="carousel-item">
+                <img src="..." class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="..." class="d-block w-100" alt="...">
+              </div> -->
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </section>
     </header>
     
     <!-- header end  -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
   </body>
 </html>
+<!-- <div class="col-6 d-flex align-items-center ps-5">
+  <div>
+    <h1 class="text-uppercase fw-semibold f-size">
+      <span class="f-color">Nike React</span> <br>
+      <span class="f-color2">Infinity Run 2</span>
+    </h1>
+    <p class="te-color">You should also consider shoes with orthotics or insoles that have substantial heel cups to help with cushioning and shock absorption to avoid...</p>
+    <button type="button" class="btn btn-primary py-3 px-5"><i class="fa-solid fa-cart-shopping pe-2 "></i> Buy Now</button>
+  </div> -->
