@@ -26,3 +26,34 @@
 .dollar {
     color: #FA804C;
 }
+
+.styles img {
+    width: 70px;
+    height: 80px;
+}
+
+.benefit-section{
+    margin-top: 10%;
+}
+
+.footer-part {
+   
+    background-color: rgba(23, 24, 24, 0.418);
+}
+
+.icons a {
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+}
+
+.facebook {
+    color: blue;
+}
+.twitter {
+    color:  #26a7de;
+}
+
+.instagram {
+    color: rgba(192, 14, 53, 0.842);
+}
