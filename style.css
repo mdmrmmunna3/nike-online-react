@@ -17,3 +17,12 @@
 .te-color{
     color: #3E3E3E;
 }
+
+.bg-color {
+    background-color: #F1F1F1;
+    margin: 14px;
+}
+
+.dollar {
+    color: #FA804C;
+}
